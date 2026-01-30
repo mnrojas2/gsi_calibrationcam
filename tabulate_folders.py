@@ -47,6 +47,7 @@ for idx in matrix_params_idx:
     # Set names to every element in y-axis
     ax.set_yticks(np.arange(len(name_list)))
     ax.set_yticklabels(name_list)
+    ax.set_xlabel('pixel')
 
     # Set title
     ax.set_title(f'Parameter: {idx}')
